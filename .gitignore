@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Bases SQLite locales (créées au démarrage ou par l'import du seed)
+data/campus.db
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Variables d'environnement : NE JAMAIS committer (seul .env.example est suivi)
+.env
+.env.*
+!.env.example
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Éditeurs et systèmes
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
